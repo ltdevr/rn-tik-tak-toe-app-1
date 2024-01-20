@@ -131,11 +131,9 @@ const App = () => {
           </Pressable>
         </View>
 
-        {/* <Pressable style={styles.cancelBTN} onPress={resetMarkers}> */}
+        
         <Pressable style={styles.resetButton} onPress={resetMarkers}>
-          {/* {markers[9] === 'X' && <Image source={require('./assets/img/cross.png')} style={styles.icon} />}
-        {markers[9] === 'O' && <Image source={require('./assets/img/zero.png')} style={styles.icon} />} */}
-          {/* <Image source={require('./assets/img/replay.png')} style={styles.cancelIcon} /> */}
+          
           <Text style={styles.resetButtonText}>Reset</Text>
         </Pressable>
       </LinearGradient >
